@@ -1,6 +1,6 @@
 [project]
 name = "sqlalchemy-libsql"
-version = "0.2.0"
+version = "0.2.1"
 description = "SQLAlchemy dialect for libSQL"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -18,7 +18,7 @@ classifiers = [
     "Topic :: Database",
 ]
 dependencies = [
-    "libsql-experimental>=0.0.53",
+    "libsql>=0.1.11",
     "sqlalchemy>=2.0.0",
     "greenlet>=3.0.3",
 ]
